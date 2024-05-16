@@ -11,6 +11,7 @@
 		0C22DAEF1BCABF4F006E1D3B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22DAEA1BCABF4F006E1D3B /* FLAnimatedImageView.m */; };
 		84C35646241D1B2D00052A01 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB1DD9241D0A4F0039C1C7 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84C35647241D1B2D00052A01 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB1DDA241D0A4F0039C1C7 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7815E662BF6876D004EE7D5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E7815E642BF6876D004EE7D5 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		84AB1DD9241D0A4F0039C1C7 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = include/FLAnimatedImage.h; sourceTree = "<group>"; };
 		84AB1DDA241D0A4F0039C1C7 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = include/FLAnimatedImageView.h; sourceTree = "<group>"; };
 		92C9BC0C1B199DC500D79B06 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7815E642BF6876D004EE7D5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		0C22DAE61BCABF4F006E1D3B /* FLAnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
+				E7815E652BF6876D004EE7D5 /* Assets */,
 				84AB1DD9241D0A4F0039C1C7 /* FLAnimatedImage.h */,
 				84AB1DDA241D0A4F0039C1C7 /* FLAnimatedImageView.h */,
 				0C22DAE81BCABF4F006E1D3B /* FLAnimatedImage.m */,
@@ -59,6 +62,14 @@
 				92C9BC0C1B199DC500D79B06 /* FLAnimatedImage.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E7815E652BF6876D004EE7D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E7815E642BF6876D004EE7D5 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7815E662BF6876D004EE7D5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
